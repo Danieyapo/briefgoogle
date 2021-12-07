@@ -1,0 +1,234 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.en-tete {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 20vh;
+    margin-top: 40px;
+    display: fixed;
+}
+
+.logo {
+    width: 10%;
+    margin-left: 20px;
+    float: left;
+    margin-top: -20px;
+}
+
+.input {
+    display: block;
+    border: 1px solid #ddd;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 16px;
+    padding: 13px;
+    padding-left: 10px;
+    border-radius: 25px;
+    width: 55%;
+    transition: box-shadow 100ms;
+    outline: none;
+    float: left;
+    margin-left: 20px;
+    right: 20px;
+}
+
+.loupegrise {
+    width: 20px;
+    opacity: .4;
+    position: absolute;
+    top: 46px;
+    left: 200px;
+}
+
+.loupebleue {
+    width: 20%;
+    position: absolute;
+    top: 46px;
+    left: 750px;
+}
+
+.cam {
+    width: 20px;
+    position: absolute;
+    top: 43px;
+    left: 650px;
+}
+
+.microphone {
+    width: 14px;
+    position: absolute;
+    top: 43px;
+    left: 700px;
+}
+
+.recherche {
+    position: absolute;
+    top: 60px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 30px;
+    margin-left: 150px;
+    display: fixed;
+}
+
+.recherche a {
+    text-decoration: none;
+    padding: 9px;
+    color: #5f6368
+}
+
+.hr {
+    width: 200px;
+    padding: 0;
+    margin-top: 110px;
+    margin-right: 50px;
+}
+
+.barresimages {
+    margin-right: 30px;
+    margin-left: px;
+    stroke-opacity: .4;
+}
+
+.bar1 {
+    display: inline-flex;
+    border: 1px solid rgb(199, 193, 193);
+    border-radius: 10px;
+    width: 140px;
+    height: 50px;
+    margin: 30px;
+    margin-right: -1px;
+    margin-bottom: 110px;
+}
+
+.bar2 {
+    display: inline-flex;
+    border: 1px solid rgb(199, 193, 193);
+    border-radius: 10px;
+    width: 140px;
+    height: 50px;
+    margin-right: 200px;
+}
+
+.bar3 {
+    display: inline-flex;
+    border: 1px solid rgb(199, 193, 193);
+    border-radius: 10px;
+    width: 140px;
+    height: 50px;
+    margin-left: -200px;
+}
+
+.bar4 {
+    display: inline-flex;
+    border: 1px solid rgb(199, 193, 193);
+    border-radius: 10px;
+    width: 140px;
+    height: 50px;
+}
+
+.bar5 {
+    display: inline-flex;
+    border: 1px solid rgb(199, 193, 193);
+    border-radius: 10px;
+    width: 140px;
+    height: 50px;
+}
+
+.bar6 {
+    display: inline-flex;
+    border: 1px solid rgb(199, 193, 193);
+    border-radius: 10px;
+    width: 140px;
+    height: 50px;
+    margin-bottom: 100px;
+}
+
+.rose {
+    text-transform: capitalize;
+    width: 75px;
+    margin: left 70px;
+    margin: top 5px;
+    border-radius: 10px;
+    margin-left: 0px;
+}
+
+.orchidees {
+    text-transform: capitalize;
+    width: 50px;
+    margin: left 70px;
+    margin: top 5px;
+    border-radius: 10px;
+    right: 500px;
+}
+
+.bouquet2 {
+    text-transform: capitalize;
+    width: 50px;
+    margin: left 70px;
+    margin-top: 3px;
+    border-radius: 10px;
+    right: 500px;
+}
+
+.gaedenia {
+    text-transform: capitalize;
+    width: 50px;
+    margin: left 70px;
+    top: 5px;
+    border-radius: 10px;
+    right: 500px;
+}
+
+.soleil {
+    text-transform: capitalize;
+    width: 50px;
+    margin: left 70px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.maguerite {
+    text-transform: capitalize;
+    width: 50px;
+    margin: left 70px;
+    margin: top 5px;
+    border-radius: 10px;
+    right: 450px;
+}
+
+.poinsettia {
+    text-transform: capitalize;
+    width: 50px;
+    margin: left 70px;
+    border-radius: 10px;
+    right: 600px;
+}
+
+.rose {
+    text-transform: capitalize;
+    width: 50px;
+    margin: left 60px;
+    margin: top 5px;
+    border-radius: 10px;
+    margin-left: 0px;
+}
+
+.pense {
+    text-transform: capitalize;
+    width: 75px;
+    margin: left 70px;
+    margin: top 5px;
+    border-radius: 10px;
+    margin-left: 0px;
+}
+
+span {
+    padding: 10px;
+    margin-top: 3px;
+}
